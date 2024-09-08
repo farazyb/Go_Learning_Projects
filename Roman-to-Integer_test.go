@@ -4,12 +4,12 @@ import (
 	"testing"
 )
 
-type testpair struct {
+type RomanTestPair struct {
 	roman    string
 	expected int
 }
 
-var tests = []testpair{
+var tests = []RomanTestPair{
 	{"III", 3},
 	{"IV", 4},
 	{"IX", 9},
